@@ -72,7 +72,7 @@ Este tablero permitirá:
 
 Cada historia de usuario documentada en este repositorio (`docs/user-stories/`) tendrá su respectivo **ID HU-#** y estará enlazada con su issue en Jira.
 
-**Enlace al tablero de Jira:** 
+**Enlace al tablero de Jira:** https://juanferperez0421.atlassian.net/jira/software/projects/SCRUM/boards/1?atlOrigin=eyJpIjoiNTJhZjdiZDQwMzAwNDVlN2I1MThiNmU3MzNjYjYzMjIiLCJwIjoiaiJ9
 
 ---
 
