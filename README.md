@@ -58,6 +58,7 @@ El proyecto se desarrolla bajo la metodología **Scrum**, organizada en **épica
 Cada sprint dura **una semana**, lo que permite entregas incrementales y continuas.
 
 * Las **épicas** definen los objetivos principales de cada corte académico.
+* No siempre hay una correspondencia exacta de **una épica por corte**: pueden existir **épicas adicionales** o de **corrección** según las necesidades del proyecto.
 * Las **historias de usuario (HU)** dividen esas épicas en funcionalidades más pequeñas y manejables.
 * Cada HU se documenta en este repositorio y se gestiona en **Jira**, asegurando trazabilidad entre planificación y documentación.
 
@@ -98,10 +99,10 @@ El tablero permite:
 
 | Microservicio            | Repositorio                                                                        | Estado     | Descripción                                           |
 | ------------------------ | ---------------------------------------------------------------------------------- | ---------- | ----------------------------------------------------- |
-| **Eureka Server**        | enlace                                                                             | Listo      | Registro y descubrimiento de microservicios           |
-| **API Gateway**          | enlace                                                                             | Listo      | Enrutamiento centralizado, seguridad y políticas      |
-| **Auth Service**         | enlace                                                                             | Listo      | Autenticación y autorización con JWT/OAuth2           |
-| **Student Service**      | [university-student-service](https://github.com/IAndresPH/student-service.git) | En proceso | Gestión de estudiantes, materias y calificaciones     |
+| **Eureka Server**        | enlace                                                                             | Pendiente  | Registro y descubrimiento de microservicios           |
+| **API Gateway**          | enlace                                                                             | Pendiente  | Enrutamiento centralizado, seguridad y políticas      |
+| **Auth Service**         | enlace                                                                             | Pendiente  | Autenticación y autorización con JWT/OAuth2           |
+| **Student Service**      | [university-student-service](https://github.com/IAndresPH/student-service.git)     | En proceso | Gestión de estudiantes, materias y calificaciones     |
 | **University Service**   | enlace                                                                             | Pendiente  | Administración de universidades, programas y periodos |
 | **Teacher Service**      | enlace                                                                             | Pendiente  | Gestión de docentes y asignaturas                     |
 | **Notification Service** | enlace                                                                             | Pendiente  | Envío de recordatorios y alertas (correo/push)        |
