@@ -108,7 +108,7 @@ El tablero permite:
 | **Notification Service** | enlace                                                                             | Pendiente  | Envío de recordatorios y alertas (correo/push)        |
 | **Report Service**       | enlace                                                                             | Pendiente  | Generación de reportes PDF/Excel                      |
 | **Config Server**        | enlace                                                                             | Pendiente  | Configuración centralizada                            |
-| **Frontend Web**         | enlace                                                                             | Pendiente  | Interfaz gráfica del sistema                          |
+| **Frontend Web**         | [university-academic-frontend](https://github.com/IAndresPH/university-academic-frontend.git)                                                                             | Pendiente  | Interfaz gráfica del sistema                          |
 
 ---
 
