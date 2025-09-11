@@ -66,9 +66,13 @@ Cada sprint dura **una semana**, lo que permite entregas incrementales y continu
 
 ## Convención de Historias de Usuario (HU-#)
 
-* Corte 1 → HU-001 en adelante
-* Corte 2 → HU-101 en adelante
-* Corte 3 → HU-201 en adelante
+* Épica 1 (Definición y preparación del proyecto) → HU-0## y HU-C01
+* Épica 2 (Módulo Student) → HU-1##
+* Épica 3 (Módulo Teacher) → HU-2##
+* Épica 4 (Módulo University) → HU-3##
+* Épica 5 (Módulo AuthService) → HU-4##
+* Épica 6 (Módulo API Gateway) → HU-5##
+* Épica 7 (Módulo Eureka) → HU-6##
 
 Cada HU tendrá:
 

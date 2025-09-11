@@ -1,2 +1,1 @@
 Como miembro del equipo de desarrollo, quiero traducir al inglés todos los diagramas creados para el proyecto, para que la documentación sea comprensible para usuarios, evaluadores o colaboradores internacionales.
-

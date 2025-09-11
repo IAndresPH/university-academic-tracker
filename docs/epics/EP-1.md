@@ -36,17 +36,15 @@ HU-009: Como usuario, quiero ver una pantalla de inicio de sesión con campos de
 
 HU-010: Como usuario, quiero ver un panel básico pero identificable según el rol asignado después de iniciar sesión, para tener un espacio listo donde se mostrarán las funciones a desarrollar.
 
-HU-011: Como equipo de desarrollo, quiero desplegar la versión básica del sistema en un entorno local de pruebas con Postman, para verificar el funcionamiento de manejo de datos del sistema.
-
-HU-012: Como desarrollador backend, quiero crear las entidades del sistema, para estructurar la información de forma clara y consistente en la base de datos y facilitar la implementación de la lógica de negocio.
-
-HU-013: Como arquitecto de software, quiero implementar el sistema bajo una arquitectura distribuida, para que cada módulo sea independiente, escalable y más fácil de mantener.
-
 
 
 Sprint 5
 
 HU-C01: Como miembro del equipo de desarrollo, quiero traducir al inglés todos los diagramas creados para el proyecto, para que la documentación sea comprensible para usuarios, evaluadores o colaboradores internacionales.
 
-HU-C02: Como arquitecto del sistema, quiero redistribuir el proyecto en repositorios separados por módulos, para organizar el código de acuerdo con una arquitectura distribuida que facilite la escalabilidad y el trabajo colaborativo.
+
+
+Sprint 6
+
+HU-011: Como diseñador UX/UI, quiero elaborar mockups de las pantallas principales del sistema, para visualizar la interfaz antes de implementarla y validar con los usuarios que cumple sus necesidades.
 
