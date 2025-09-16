@@ -108,11 +108,11 @@ El tablero permite:
 | **Auth Service**         | enlace                                                                             | Pendiente  | Autenticación y autorización con JWT/OAuth2           |
 | **Student Service**      | [university-student-service](https://github.com/IAndresPH/student-service.git)     | En proceso | Gestión de estudiantes, materias y calificaciones     |
 | **University Service**   | enlace                                                                             | Pendiente  | Administración de universidades, programas y periodos |
-| **Teacher Service**      | enlace                                                                             | Pendiente  | Gestión de docentes y asignaturas                     |
+| **Teacher Service**      | [teacher-service](https://github.com/JuanPerez012/teacher-service.git)             | En proceso | Gestión de docentes y asignaturas                     |
 | **Notification Service** | enlace                                                                             | Pendiente  | Envío de recordatorios y alertas (correo/push)        |
 | **Report Service**       | enlace                                                                             | Pendiente  | Generación de reportes PDF/Excel                      |
 | **Config Server**        | enlace                                                                             | Pendiente  | Configuración centralizada                            |
-| **Frontend Web**         | [university-academic-frontend](https://github.com/IAndresPH/university-academic-frontend.git)                                                                             | Pendiente  | Interfaz gráfica del sistema                          |
+| **Frontend Web**         | [university-academic-frontend](https://github.com/IAndresPH/university-academic-frontend.git)| En proceso  | Interfaz gráfica del sistema                          |
 
 ---
 
