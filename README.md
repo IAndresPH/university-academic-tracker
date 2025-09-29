@@ -106,8 +106,8 @@ El tablero permite:
 | **Eureka Server**        | enlace                                                                             | Pendiente  | Registro y descubrimiento de microservicios           |
 | **API Gateway**          | enlace                                                                             | Pendiente  | Enrutamiento centralizado, seguridad y políticas      |
 | **Auth Service**         | enlace                                                                             | Pendiente  | Autenticación y autorización con JWT/OAuth2           |
-| **Student Service**      | [university-student-service](https://github.com/IAndresPH/student-service.git)     | En proceso | Gestión de estudiantes, materias y calificaciones     |
-| **University Service**   | enlace                                                                             | Pendiente  | Administración de universidades, programas y periodos |
+| **Student Service**      | [student-service](https://github.com/IAndresPH/student-service.git)                | En proceso | Gestión de estudiantes, materias y calificaciones     |
+| **University Service**   | [university-service](https://github.com/JuanPerez012/university-service.git)       | En proceso | Administración de universidades, programas y periodos |
 | **Teacher Service**      | [teacher-service](https://github.com/JuanPerez012/teacher-service.git)             | En proceso | Gestión de docentes y asignaturas                     |
 | **Notification Service** | enlace                                                                             | Pendiente  | Envío de recordatorios y alertas (correo/push)        |
 | **Report Service**       | enlace                                                                             | Pendiente  | Generación de reportes PDF/Excel                      |
