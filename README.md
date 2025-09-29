@@ -39,9 +39,8 @@ Los diagramas de arquitectura se encuentran en la carpeta [`docs/diagrams/`](./d
 ├─ docs/                     → Documentación técnica
 │  ├─ vision.md              → Visión general y alcance
 │  ├─ architecture.md        → Detalle de la arquitectura
+│  ├─ user-stories.md        → Historias de usuario (HU-#)
 │  ├─ diagrams/              → Diagramas del sistema
-│  ├─ epics/                 → Épicas por corte
-│  ├─ user-stories/          → Historias de usuario (HU-#)
 │
 ├─ repos/                    → Referencias a repositorios de código
 ├─ reports/                  → Entregables por corte (corte1/, corte2/, corte3/)
@@ -67,12 +66,13 @@ Cada sprint dura **una semana**, lo que permite entregas incrementales y continu
 ## Convención de Historias de Usuario (HU-#)
 
 * Épica 1 (Definición y preparación del proyecto) → HU-0## y HU-C01
-* Épica 2 (Módulo Student) → HU-1##
-* Épica 3 (Módulo Teacher) → HU-2##
-* Épica 4 (Módulo University) → HU-3##
-* Épica 5 (Módulo AuthService) → HU-4##
-* Épica 6 (Módulo API Gateway) → HU-5##
-* Épica 7 (Módulo Eureka) → HU-6##
+* Épica 2 (Base del Sistema) → HU-1##
+* Épica 3 (Gestión de Entidades) → HU-2##
+* Épica 4 (Análisis y Estadísticas) → HU-3##
+* Épica 5 (Carga de Archivos) → HU-4##
+* Épica 6 (Módulo AuthService) → HU-5##
+* Épica 7 (Módulo API Gateway) → HU-6##
+* Épica 8 (Módulo Eureka) → HU-7##
 
 Cada HU tendrá:
 
@@ -113,13 +113,3 @@ El tablero permite:
 | **Report Service**       | enlace                                                                             | Pendiente  | Generación de reportes PDF/Excel                      |
 | **Config Server**        | enlace                                                                             | Pendiente  | Configuración centralizada                            |
 | **Frontend Web**         | [university-academic-frontend](https://github.com/IAndresPH/university-academic-frontend.git)| En proceso  | Interfaz gráfica del sistema                          |
-
----
-
-## Participantes
-
-* **Camilo Andrés Chavarro Guenis**
-* **Huber Andrés Parra Molina**
-* **Juan Fernando Pérez Olaya**
-
-**Universidad Corhuila – 2025-B**
