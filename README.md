@@ -39,7 +39,7 @@ Los diagramas de arquitectura se encuentran en la carpeta [`docs/diagrams/`](./d
 ├─ docs/                     → Documentación técnica
 │  ├─ vision.md              → Visión general y alcance
 │  ├─ architecture.md        → Detalle de la arquitectura
-│  ├─ user-stories.md        → Historias de usuario (HU-#)
+│  ├─ user-stories.md        → Historias de usuario (HU-#), épicas y sprints
 │  ├─ diagrams/              → Diagramas del sistema
 │
 ├─ repos/                    → Referencias a repositorios de código
@@ -66,13 +66,11 @@ Cada sprint dura **una semana**, lo que permite entregas incrementales y continu
 ## Convención de Historias de Usuario (HU-#)
 
 * Épica 1 (Definición y preparación del proyecto) → HU-0## y HU-C01
-* Épica 2 (Base del Sistema) → HU-1##
-* Épica 3 (Gestión de Entidades) → HU-2##
+* Épica 2 (Base del Sistema) → HU-1## y HU-C02
+* Épica 3 (Gestión de Entidades) → HU-2##, y HU-C03 a HU-C15
 * Épica 4 (Análisis y Estadísticas) → HU-3##
 * Épica 5 (Carga de Archivos) → HU-4##
 * Épica 6 (Módulo AuthService) → HU-5##
-* Épica 7 (Módulo API Gateway) → HU-6##
-* Épica 8 (Módulo Eureka) → HU-7##
 
 Cada HU tendrá:
 
@@ -101,15 +99,14 @@ El tablero permite:
 
 ## Repositorios relacionados
 
-| Microservicio            | Repositorio                                                                        | Estado     | Descripción                                           |
-| ------------------------ | ---------------------------------------------------------------------------------- | ---------- | ----------------------------------------------------- |
-| **Eureka Server**        | enlace                                                                             | Pendiente  | Registro y descubrimiento de microservicios           |
-| **API Gateway**          | enlace                                                                             | Pendiente  | Enrutamiento centralizado, seguridad y políticas      |
-| **Auth Service**         | enlace                                                                             | Pendiente  | Autenticación y autorización con JWT/OAuth2           |
-| **Student Service**      | [student-service](https://github.com/IAndresPH/student-service.git)                | En proceso | Gestión de estudiantes, materias y calificaciones     |
-| **University Service**   | [university-service](https://github.com/JuanPerez012/university-service.git)       | En proceso | Administración de universidades, programas y periodos |
-| **Teacher Service**      | [teacher-service](https://github.com/JuanPerez012/teacher-service.git)             | En proceso | Gestión de docentes y asignaturas                     |
-| **Notification Service** | enlace                                                                             | Pendiente  | Envío de recordatorios y alertas (correo/push)        |
-| **Report Service**       | enlace                                                                             | Pendiente  | Generación de reportes PDF/Excel                      |
-| **Config Server**        | enlace                                                                             | Pendiente  | Configuración centralizada                            |
-| **Frontend Web**         | [university-academic-frontend](https://github.com/IAndresPH/university-academic-frontend.git)| En proceso  | Interfaz gráfica del sistema                          |
+| Microservicio            | Repositorio                                                                                   | Estado     | Descripción                                           |
+| ------------------------ | --------------------------------------------------------------------------------------------- | ---------- | ----------------------------------------------------- |
+| **Eureka Server**        | [university-academic-gateway](https://github.com/JuanPerez012/university-academic-gateway.git)| En proceso | Registro y descubrimiento de microservicios           |
+| **Auth Service**         | enlace                                                                                        | Pendiente  | Autenticación y autorización con JWT/OAuth2           |
+| **Student Service**      | [student-service](https://github.com/IAndresPH/student-service.git)                           | En proceso | Gestión de estudiantes, materias y calificaciones     |
+| **University Service**   | [university-service](https://github.com/JuanPerez012/university-service.git)                  | En proceso | Administración de universidades, programas y periodos |
+| **Teacher Service**      | [teacher-service](https://github.com/JuanPerez012/teacher-service.git)                        | En proceso | Gestión de docentes y asignaturas                     |
+| **Notification Service** | enlace                                                                                        | Pendiente  | Envío de recordatorios y alertas (correo/push)        |
+| **Report Service**       | enlace                                                                                        | Pendiente  | Generación de reportes PDF/Excel                      |
+| **Config Server**        | enlace                                                                                        | Pendiente  | Configuración centralizada                            |
+| **Frontend Web**         | [university-academic-frontend](https://github.com/IAndresPH/university-academic-frontend.git) | En proceso | Interfaz gráfica del sistema                          |
