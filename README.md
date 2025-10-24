@@ -68,9 +68,9 @@ Cada sprint dura **una semana**, lo que permite entregas incrementales y continu
 * Épica 1 (Definición y preparación del proyecto) → HU-0## y HU-C01
 * Épica 2 (Base del Sistema) → HU-1## y HU-C02
 * Épica 3 (Gestión de Entidades) → HU-2##, y HU-C03 a HU-C15
-* Épica 4 (Análisis y Estadísticas) → HU-3##
+* Épica 4 (Autenticación) → HU-3##
 * Épica 5 (Carga de Archivos) → HU-4##
-* Épica 6 (Módulo AuthService) → HU-5##
+* Épica 6 (Análisis y Estadísticas) → HU-5##
 
 Cada HU tendrá:
 
@@ -101,12 +101,12 @@ El tablero permite:
 
 | Microservicio            | Repositorio                                                                                   | Estado     | Descripción                                           |
 | ------------------------ | --------------------------------------------------------------------------------------------- | ---------- | ----------------------------------------------------- |
-| **Eureka Server**        | [university-academic-gateway](https://github.com/JuanPerez012/university-academic-gateway.git)| En proceso | Registro y descubrimiento de microservicios           |
-| **Auth Service**         | enlace                                                                                        | Pendiente  | Autenticación y autorización con JWT/OAuth2           |
-| **Student Service**      | [student-service](https://github.com/IAndresPH/student-service.git)                           | En proceso | Gestión de estudiantes, materias y calificaciones     |
-| **University Service**   | [university-service](https://github.com/JuanPerez012/university-service.git)                  | En proceso | Administración de universidades, programas y periodos |
-| **Teacher Service**      | [teacher-service](https://github.com/JuanPerez012/teacher-service.git)                        | En proceso | Gestión de docentes y asignaturas                     |
+| **Eureka Server**        | [university-academic-eureka](https://github.com/JuanPerez012/university-academic-eureka.git)  | Finalizado | Registro y descubrimiento de microservicios           |
+| **API Gateway**          | [university-academic-gateway](https://github.com/JuanPerez012/university-academic-gateway.git)| Finalizado | Enrutamiento centralizado, seguridad y políticas      |
+| **Auth Service**         | [university-academic-auth](https://github.com/JuanPerez012/university-academic-auth.git)      | En proceso | Autenticación y autorización con JWT/OAuth2           |
+| **Student Service**      | [student-service](https://github.com/IAndresPH/student-service.git)                           | Finalizado | Gestión de estudiantes, materias y calificaciones     |
+| **University Service**   | [university-service](https://github.com/JuanPerez012/university-service.git)                  | Finalizado | Administración de universidades, programas y periodos |
+| **Teacher Service**      | [teacher-service](https://github.com/JuanPerez012/teacher-service.git)                        | Finalizado | Gestión de docentes y asignaturas                     |
 | **Notification Service** | enlace                                                                                        | Pendiente  | Envío de recordatorios y alertas (correo/push)        |
 | **Report Service**       | enlace                                                                                        | Pendiente  | Generación de reportes PDF/Excel                      |
-| **Config Server**        | enlace                                                                                        | Pendiente  | Configuración centralizada                            |
 | **Frontend Web**         | [university-academic-frontend](https://github.com/IAndresPH/university-academic-frontend.git) | En proceso | Interfaz gráfica del sistema                          |
