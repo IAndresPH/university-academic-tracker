@@ -68,9 +68,9 @@ Cada sprint dura **una semana**, lo que permite entregas incrementales y continu
 * Épica 1 (Definición y preparación del proyecto) → HU-0## y HU-C01
 * Épica 2 (Base del Sistema) → HU-1## y HU-C02
 * Épica 3 (Gestión de Entidades) → HU-2##, y HU-C03 a HU-C15
-* Épica 4 (Análisis y Estadísticas) → HU-3##
-* Épica 5 (Carga de Archivos) → HU-4##
-* Épica 6 (Módulo AuthService) → HU-5##
+* Épica 4 (Autenticación) → HU-3##
+* Épica 5 (Análisis y Estadísticas) → HU-4##
+* Épica 6 (Carga de Archivos) → HU-5##
 
 Cada HU tendrá:
 
@@ -101,8 +101,8 @@ El tablero permite:
 
 | Microservicio            | Repositorio                                                                                   | Estado     | Descripción                                           |
 | ------------------------ | --------------------------------------------------------------------------------------------- | ---------- | ----------------------------------------------------- |
-| **Eureka Server**        | [university-academic-gateway](https://github.com/JuanPerez012/university-academic-gateway.git)| En proceso | Registro y descubrimiento de microservicios           |
-| **Auth Service**         | enlace                                                                                        | Pendiente  | Autenticación y autorización con JWT/OAuth2           |
+| **API Gateway**          | [university-academic-gateway](https://github.com/JuanPerez012/university-academic-gateway.git)| En proceso | Registro y descubrimiento de microservicios           |
+| **Auth Service**         | [university-academic-auth](https://github.com/JuanPerez012/university-academic-auth.git)      | En proceso | Autenticación y autorización con JWT/OAuth2           |
 | **Student Service**      | [student-service](https://github.com/IAndresPH/student-service.git)                           | En proceso | Gestión de estudiantes, materias y calificaciones     |
 | **University Service**   | [university-service](https://github.com/JuanPerez012/university-service.git)                  | En proceso | Administración de universidades, programas y periodos |
 | **Teacher Service**      | [teacher-service](https://github.com/JuanPerez012/teacher-service.git)                        | En proceso | Gestión de docentes y asignaturas                     |
